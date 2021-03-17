@@ -1,6 +1,10 @@
-body{background-color: red;
+body{background-color: blue;
 font-family: "Times New Roman", serif;
-text-shadow: 2px 2px red;
+text-shadow: 5px 4px red;
 color: green;
 background color: pink;
-opacity 70%;}
+opacity 60%;
+background-image: url("https://upload.wikimedia.org/wikipedia/en/7/74/Elmo_from_Sesame_Street.gif"), url("http://inmatelookup.myescambia.com/smartwebclient/ViewImage.aspx?bookno=ECC16JBN004148");
+
+background-position: left, right;
+background-repeat:repeat;}
