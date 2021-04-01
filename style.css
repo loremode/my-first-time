@@ -1,10 +1,47 @@
 body{background-color: blue;
 font-family: "Times New Roman", serif;
-text-shadow: 5px 4px red;
-color: green;
-background color: pink;
-opacity 60%;
+text-shadow: 8px 8px #918b8a;
+color: #090bad;
+background color: white;
+opacity 80%;
 background-image: url("https://upload.wikimedia.org/wikipedia/en/7/74/Elmo_from_Sesame_Street.gif"), url("http://inmatelookup.myescambia.com/smartwebclient/ViewImage.aspx?bookno=ECC16JBN004148");
 
 background-position: left, right;
-background-repeat:repeat;}
+background-repeat:repeat;
+background-image: hover{ url("https://lh5.googleusercontent.com/-LAmGpNc9zvI/AAAAAAAAAAI/AAAAAAAAAEs/SwoaJA7BMVA/photo.jpg")};
+h1{text-align: center;
+direction: ltr;
+font-size: 185px;
+color: #10e337
+}
+
+h1:hover{color:pink;
+font-size: 120px;}
+
+h2{text align: bottom left;
+font-style: italic;
+font-stretch: ultra-expanded;
+font-size: 85px;
+color: #112199}
+
+
+h3{text align: left;
+direction:rtl;
+color: #e83a13;
+font-size: 100px;
+text-shadow: #9ef277;}
+
+h3:hover{color:black;
+font-size:200px}
+
+h4{text align:right;
+font-weight: 200px;
+font-family: monospace;
+color: #debb31;
+font-size: 50px;
+}
+h5{text align:center;
+font-size:70px;
+direction:ltr;
+text-overflow: ellipsis;
+text-shadow: #63140d;}
