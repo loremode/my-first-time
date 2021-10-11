@@ -1,31 +1,46 @@
-body{background-color: blue;
+body {background-color: blue;
 font-family: "Times New Roman", serif;
-text-shadow: 8px 8px #918b8a;
+text-shadow: 3px 8px #918b8a;
 color: #090bad;
 background color: white;
 opacity 80%;
-background-image: url("https://upload.wikimedia.org/wikipedia/en/7/74/Elmo_from_Sesame_Street.gif"), url("http://inmatelookup.myescambia.com/smartwebclient/ViewImage.aspx?bookno=ECC16JBN004148");
+position: sticky;
+background-image: url("https://upload.wikimedia.org/wikipedia/en/7/74/Elmo_from_Sesame_Street.gif"), url("https://lh5.googleusercontent.com/-LAmGpNc9zvI/AAAAAAAAAAI/AAAAAAAAAEs/SwoaJA7BMVA/photo.jpg")
+"
 
 background-position: left, right;
 background-repeat:repeat;
 background-image: hover{ url("https://lh5.googleusercontent.com/-LAmGpNc9zvI/AAAAAAAAAAI/AAAAAAAAAEs/SwoaJA7BMVA/photo.jpg")};
-h1{text-align: center;
-direction: ltr;
-font-size: 185px;
-color: #10e337
 }
 
-h1:hover{color:pink;
+h1 {text-align: center;
+  position: relative;
+direction: ltr;
+font-size: 185px;
+color: #10e337;
+transition: font-size 3s;
+}
+
+h1:hover{color:black;
 font-size: 120px;}
 
-h2{text align: bottom left;
+
+
+h2 {text align: bottom left;
+  position: static;
 font-style: italic;
 font-stretch: ultra-expanded;
-font-size: 85px;
-color: #112199}
+font-size: 50px;
+color: #112199
+transition: font-size 3.5s;
+}
+}
+
+
 
 
 h3{text align: left;
+  position: static;
 direction:rtl;
 color: #e83a13;
 font-size: 100px;
@@ -34,10 +49,10 @@ text-shadow: #9ef277;}
 h3:hover{color:black;
 font-size:200px}
 
-h4{text align:right;
+h4{text align:bottom right;
 font-weight: 200px;
 font-family: monospace;
-color: #debb31;
+color: #black;
 font-size: 50px;
 }
 h5{text align:center;
@@ -45,3 +60,34 @@ font-size:70px;
 direction:ltr;
 text-overflow: ellipsis;
 text-shadow: #63140d;}
+
+body {
+  animation: 10000ms ease-in-out infinite color-change;
+  background-blend-mode: difference;
+}
+
+img { border-radius: 75%;
+width: 20vw
+}
+
+
+@keyframes color-change {
+  0% {
+    background-color: black;
+  }
+  20% {
+    background-color: lime;
+  }
+  40% {
+    background-color: indianred;
+  }
+  60% {
+    background-color: violet;
+  }
+  80% {
+    background-color: green;
+  }
+  100% {
+    background-color: teal;
+  }
+}
